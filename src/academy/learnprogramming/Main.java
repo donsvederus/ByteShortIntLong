@@ -22,5 +22,35 @@ public class Main {
         int myMaxInteger = 2_147_483_647;
         System.out.println("Underscores are removed: " + myMaxInteger);
         System.out.println("----------");
+
+        // min and max for Byte
+        byte myMinByteValue = Byte.MIN_VALUE;
+        byte myMaxByteValue = Byte.MAX_VALUE;
+        System.out.println("Byte Minimum Value = " + myMinByteValue);
+        System.out.println("Byte Maximum Value = " + myMaxByteValue);
+        System.out.println("----------");
+
+        // min and max for Short
+        short myMinShortValue = Short.MIN_VALUE;
+        short myMaxShortValue = Short.MAX_VALUE;
+        System.out.println("Short Minimum Value = " + myMinShortValue);
+        System.out.println("Short Maximum Value = " + myMaxShortValue);
+        System.out.println("----------");
+
+        // min and max for Long
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+        System.out.println("Long Minimum Value = " + myMinLongValue);
+        System.out.println("Long Maximum Value = " + myMaxLongValue);
+        System.out.println("----------");
+
+        // long values need an L on the end, or it will be treated as an int.
+        long myLongValue = 1000L;
+        long myMaxLong = 2_147_483_647_123L;
+        System.out.println(myLongValue);
+        System.out.println(myMaxLong);
+
+
+
     }
 }
