@@ -66,5 +66,6 @@ public class Main {
         int myIntValueNumber = 3942;
         long myLongValueNumber = 50000L + 10L * (myByteValueNumber + myShortValueNumber + myIntValueNumber);
         System.out.println(myLongValueNumber);
+
     }
 }
