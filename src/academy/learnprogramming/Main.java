@@ -49,8 +49,13 @@ public class Main {
         long myMaxLong = 2_147_483_647_123L;
         System.out.println(myLongValue);
         System.out.println(myMaxLong);
+        System.out.println("----------");
 
+        // in this example int is ok
+        int myTotal = (myMinIntValue / 2);
 
-
+        // this is casting, converts a number to another type.
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+        short myNewShortValue = (short) (myMinShortValue / 2);
     }
 }
