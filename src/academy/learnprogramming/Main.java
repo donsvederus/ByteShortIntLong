@@ -57,5 +57,14 @@ public class Main {
         // this is casting, converts a number to another type.
         byte myNewByteValue = (byte) (myMinByteValue / 2);
         short myNewShortValue = (short) (myMinShortValue / 2);
+
+        System.out.println("----------");
+        System.out.println("Primitive Types Challenge");
+
+        byte myByteValueNumber = 8;
+        short myShortValueNumber = 300;
+        int myIntValueNumber = 3942;
+        long myLongValueNumber = 50000L + 10L * (myByteValueNumber + myShortValueNumber + myIntValueNumber);
+        System.out.println(myLongValueNumber);
     }
 }
